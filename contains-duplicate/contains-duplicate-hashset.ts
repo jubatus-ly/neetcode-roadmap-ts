@@ -1,5 +1,5 @@
 
-
+// In the Hashset algorithm we are trying to sacrifice space complexity for O(n) time complexity
 class ContainsDuplicateHashset implements Solution {
     hasDuplicate(nums: number[]): boolean {
         let seen : Set<number> = new Set();

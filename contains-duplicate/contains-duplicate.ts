@@ -29,4 +29,5 @@ class ContainsDuplicate implements Solution {
 let containsDuplicate:ContainsDuplicate = new ContainsDuplicate();
 console.log(containsDuplicate.hasDuplicate([1, 2, 3, 3]));
 
-// The time complexity of this algorithm is: O(n^2)
+// Time complexity : O(n^2)
+// Space complexity: O(1)

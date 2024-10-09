@@ -1,4 +1,5 @@
 
+// In the sorting algorithm we are trying to sort the array to make the duplicates adjacent with each other
 class ContainsDuplicateSorting implements Solution {
     hasDuplicate(nums: number[]): boolean {
         nums.sort();
@@ -17,4 +18,5 @@ class ContainsDuplicateSorting implements Solution {
 let containsDuplicateSorting:ContainsDuplicateSorting = new ContainsDuplicateSorting();
 console.log(containsDuplicateSorting.hasDuplicate([1, 2, 3, 4]));
 
-// The complexity of this algorithm is O(n*log(n))
+// Time complexity: O(n*log(n))
+// Space complexity: O(1)

@@ -14,3 +14,6 @@ class ContainsDuplicateHashsetLength implements Solution {
 // nums = [1, 2, 3, 4] result: false
 let containsDuplicateHashsetLength:ContainsDuplicateHashsetLength = new ContainsDuplicateHashsetLength();
 console.log(containsDuplicateHashsetLength.hasDuplicate([1, 2, 3, 4]));
+
+// Time complexity: O(n)
+// Space complexity: O(n)
